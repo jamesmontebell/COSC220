@@ -1,0 +1,24 @@
+This program gives you a menu and gives the user several things they can do.
+For one they can create a student, calling on the createStudent method to create a new student
+and place said student in a double linked list either at the end or if the list is empty at the beginning. The student is
+created with data based on user input.
+
+For two they can delete a student, calling on the deleteStudent method to iterate through a double linked list of students
+and finding a specific student that matches ID's with the user inputted ID. Then deleting that student by changing its next and previous
+students to point around it, thus kicking it out of the list.
+
+For three they can update a student, calling on the updateStudent method to iterate though a double linked list of students
+and finding a specific student that mathces ID's withe the user inputted ID. Then it asks what information about the student would they
+like to update.
+
+For four the program prints the information about every single student in the list.
+
+For Five the program prints the total number of students in the list.
+
+For six the program calls on the addBook method letting the user create a book and assigning said book to a specific student.
+
+For seven the program calls on the printBook method and prints every book in a specific students list.
+
+For eight the program calls on the deleteBook method and deletes a specific students book based on the user inputted name.
+
+Lastly for nine the program exits itself.

@@ -1,0 +1,20 @@
+exa: miniDList.o miniStack.o miniQueue.o main.o Student.o
+	g++ -o exa miniDList.o miniStack.o miniQueue.o main.o Student.o
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+Student.o: Student.cpp Student.h
+	g++ -c Student.cpp
+
+miniDList.o: miniDList.cpp miniDList.h
+	g++ -c miniDList.cpp
+
+miniQueue.o: miniQueue.cpp miniQueue.h
+	g++ -c miniQueue.cpp
+
+miniStack.o: miniStack.cpp miniStack.h
+	g++ -c miniStack.cpp
+
+clean:
+	rm *.o exa
